@@ -1,0 +1,16 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Allow read access to "users" collection (stocks data)
+    match /users/{stockSymbol} {
+      allow read;
+    }
+    
+    // Allow read access to "analysis" collection
+    match /analysis/{stockSymbol} {
+      allow read;
+    }
+  }
+}
