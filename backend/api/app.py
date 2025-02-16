@@ -1,5 +1,5 @@
 from flask import Flask, jsonify, request
-from fetch_data import fetch_stock_data
+from backend.temp import fetch_stock_data
 from explanation import get_explanation
 from flask_cors import CORS
 

@@ -1,3 +1,5 @@
+// sample decision making model using simple moving average (SMA) strategy
+
 #include <iostream>
 #include <vector>
 #include <string>

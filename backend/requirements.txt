@@ -1,0 +1,7 @@
+# Core dependencies
+firebase-admin==6.2.0  # Firebase Firestore SDK
+google-cloud-firestore==2.12.0  # Firestore client
+requests==2.31.0  # HTTP requests for Perplexity API
+
+# Optional (for local testing)
+numpy==1.26.3  # If needed for numerical operations
