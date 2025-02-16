@@ -1,7 +1,7 @@
 # Analysis agent for stock decision system
 
-## Overview  
-This project automates stock decision-making using **real-time stock data**, **news analysis**, and **AI-driven explanations**.  
+## Backend Overview  
+This project automates stock decision-making using **real-time stock data**, **news analysis**, and **AI-driven explanations**. The frontend was built with flutter.
 
 ## Features
 - **Fetches stock data** from Alpaca API (stored in Firebase Firestore).  
